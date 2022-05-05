@@ -14,9 +14,9 @@ def get_workout(wo_type, wo_type_not, rest_chance, rest_chance_mod):
         rest_chance = '100'
     
     # --- all workout lists
-    ub_dic = {'merkins':[20,50], 'burpees':[15,30], 'overhead press':[20,50], 'curls':[20,80], 'dips':[20,80], 'skull crushers':[20,50], 'bent over rows':[20,80]}
-    lb_dic = {'squats':[20,80], 'split lunges':[15,30], 'thrusters':[15,30], 'box jump':[15,30]}
-    cb_dic = {'big boy situps':[40,100], 'starfish crunches':[30,70], 'flutter kicks':[40,100], 'mountain climbers':[30,80]}
+    ub_dic = {'merkins':[20,40], 'burpees':[15,30], 'overhead press':[20,40], 'curls':[20,60], 'dips':[20,60], 'skull crushers':[20,50], 'bent over rows':[20,60]}
+    lb_dic = {'squats':[20,60], 'split lunges':[15,30], 'thrusters':[15,30], 'box jump':[15,30]}
+    cb_dic = {'big boy situps':[20,60], 'starfish crunches':[15,40], 'flutter kicks':[20,60], 'mountain climbers':[20,60]}
     all_dic = dict(ub_dic)
     all_dic.update(lb_dic)
     all_dic.update(cb_dic)
